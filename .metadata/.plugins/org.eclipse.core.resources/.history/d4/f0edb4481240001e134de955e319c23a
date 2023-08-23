@@ -1,0 +1,7 @@
+server.port=8082
+spring.datasource.url=jdbc:mysql://localhost:3305/quizdb
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoD8Dialect
+spring.jpa.hibernate.ddl.auto=create
+spring.jpa.show-sql=true

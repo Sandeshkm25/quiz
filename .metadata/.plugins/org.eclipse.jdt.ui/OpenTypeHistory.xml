@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Quiz/C:\/Users\/vajre\/.m2\/repository\/com\/mysql\/mysql-connector-j\/8.0.33\/mysql-connector-j-8.0.33.jar=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/com.mysql=/=/maven.artifactId=/mysql-connector-j=/=/maven.version=/8.0.33=/=/maven.scope=/runtime=/=/maven.pomderived=/true=/&lt;com.mysql.cj.jdbc(Driver.class[Driver" modifiers="33" timestamp="1692437030882"/>
+    <typeInfo handle="=Quiz/C:\/Users\/vajre\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.2.6.Final\/hibernate-core-6.2.6.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.2.6.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="1048609" timestamp="1692437018593"/>
+    <typeInfo handle="=Quiz/C:\/Users\/vajre\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.2.6.Final\/hibernate-core-6.2.6.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.2.6.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL8Dialect.class[MySQL8Dialect" modifiers="1048609" timestamp="1692437018593"/>
+</typeInfoHistroy>

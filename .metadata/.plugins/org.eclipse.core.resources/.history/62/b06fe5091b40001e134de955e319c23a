@@ -1,0 +1,32 @@
+package com.quiz.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.quiz.dao.QuestionDao;
+import com.quiz.model.Question;
+
+@Service
+public class QuizService {
+
+	@Autowired
+	QuestionDao dao;
+	
+	public List<Question> getAllQuestions() {
+		return dao.findAll();
+	}
+
+	public List<Question> getAllQuestionsByCatagory(String category) {
+		// TODO Auto-generated method stub
+		return dao.findByCatagory(category);
+	}
+
+	public String addQuestion(Question question) {
+		// TODO Auto-generated method stub
+		dao.save(question);
+		return "sucess";
+	}
+
+}

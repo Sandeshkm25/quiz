@@ -1,0 +1,35 @@
+package com.quiz.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.quiz.dao.QuestionDao;
+import com.quiz.model.Question;
+
+@Service
+public class QuizService {
+
+	@Autowired
+	QuestionDao dao;
+	
+	public ResponseEntity<List<Question>> getAllQuestions() {
+		return new ResponseEntity<>(dao.findAll(),HttpStatus.OK);
+	}
+
+	public List<Question> getAllQuestionsByCatagory(String category) {
+		// TODO Auto-generated method stub
+		return dao.findByCatagory(category);
+	}
+
+	public String addQuestion(Question question) {
+		// TODO Auto-generated method stub
+		dao.save(question);
+		return "sucess";
+	}
+
+}
