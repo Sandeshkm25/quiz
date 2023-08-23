@@ -1,0 +1,72 @@
+.home{
+    background-color: rgb(37, 63, 36);
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(37, 63, 36);
+}
+.navbar{
+    padding: 0%;
+    width: 100%;
+    display: inline-flex;
+    height: 50px;
+    padding-left: 10px;
+    position: sticky;
+    align-content: space-around;
+    align-items: center;
+}
+.home1{
+    display: inline-flex;
+    align-content: space-between;
+    padding-left: 70px;
+    
+}
+#title img{
+    height: 45px;
+    border-radius: 50%;
+    bottom: 50%;
+    transform: translate(0,40%);
+    margin-left: 10px;
+}
+.home1 h1{
+    color: greenyellow;
+    
+}
+/* .home1 button{
+    padding-right: 40px;
+} */
+.home button{
+    background-color: rgb(37, 63, 36);
+    border: 0px;
+    color: aliceblue;
+    font-size: larger;
+}
+.profile img{
+    height: 45px;
+    border-radius: 50%;
+    transform: translate(0,45%);
+}
+#user{
+    left: 10px;
+    transform: translate(40%);
+}
+.home1 button:hover{
+    color: antiquewhite;
+   
+}
+.courses{
+    text-align: center;
+    top: 50%;
+    transform: translate(0,100%);
+   color: rgb(24, 134, 161);
+   font-style: italic;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.courses button{
+    height: 50px;
+    background-color: rgb(184, 37, 105);
+    width: 200px;
+    font-size: 30px;
+    font-style: italic;
+}

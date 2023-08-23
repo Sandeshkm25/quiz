@@ -1,0 +1,20 @@
+.question{
+    font-size: larger;
+    text-align: center;
+}
+.question button{
+    background-color: aqua;
+    border-radius: 10%;
+    border: 0px;
+    height: 20px;
+}
+.all{
+    text-align: center;
+}
+.all button{
+    border: 0px;
+    width: 80px;
+    height: 20px;
+    color: rgb(255, 60, 0);
+    background-color: rgb(18, 228, 35);
+}

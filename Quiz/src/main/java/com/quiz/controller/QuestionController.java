@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+
 
 import com.quiz.model.Question;
 import com.quiz.service.QuestionService;
@@ -38,13 +38,47 @@ public class QuestionController {
 		return questionService.addQuestion(question);
 	}
 	@PutMapping("/updatequestion")
-	public ResponseEntity<Question> updateQuestion(@RequestBody Question question)
+	public String updateQuestion(@RequestBody Question question)
 	{
-		return questionService.updateQuestion(question);
+		ResponseEntity<Question> ques= questionService.updateQuestion(question);
+		return "";
 	}
-	@GetMapping("/welcome")
+	@GetMapping("/welcome1")
 	public String welcome()
 	{
 		return "welcome";
 	}
+	@GetMapping("/homepage")
+	public String homepage()
+	{
+		return "HomeAdmin";
+	}
+	@GetMapping("/addques")
+	public String addQues()
+	{
+		return "addQuestion";
+	}
+	@GetMapping("/host")
+	public String hostQuiz()
+	{
+		return "";
+	}
+
+	@GetMapping("/quest")
+	public String quest()
+	{
+		return "question";
+	}
+	@GetMapping("/addquetion/submit")
+	public String addQ()
+	{
+		return "addQuestion";
+	}
+	@GetMapping("/quetion/search/no")
+	public String search(Integer num)
+	{
+		questionService.findById(num);
+		return "question";
+	}
+
 }

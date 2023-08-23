@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(37, 63, 36);
+}
+.add h1{
+    text-align: center;
+    color: aquamarine;
+}
+.question input{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(37, 63, 36);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-weight: lighter;
+    border-bottom: 2px black solid;
+    color: aliceblue;
+    font-size: larger;
+    text-indent: 2px;
+    transform: translate(80%,0);
+}
+.question button{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    background-color: rgb(233, 21, 21);
+    color: blanchedalmond;
+    left: 40%;
+    transform: translate(400%,0);
+}

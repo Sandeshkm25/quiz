@@ -59,4 +59,9 @@ public class QuestionService {
 		return new ResponseEntity<>("Deleted",HttpStatus.ACCEPTED);
 	}
 
+	public ResponseEntity<Question> findById(Integer num) {
+		Optional<Question> ques=dao.findById(num);
+		return new ResponseEntity<>(ques,HttpStatus.OK);
+	}
+
 }
